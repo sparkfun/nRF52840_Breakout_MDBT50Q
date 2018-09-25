@@ -725,7 +725,9 @@
 <connect gate="G$1" pin="VDDH" pad="30"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14109"/>
+</technology>
 </technologies>
 </device>
 </devices>
