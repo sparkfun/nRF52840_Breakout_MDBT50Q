@@ -16839,7 +16839,7 @@ No plating, no silk outline.
 <pad name="3" x="-1.27" y="-0.635" drill="0.508" diameter="1"/>
 <pad name="1" x="-2.54" y="-0.635" drill="0.508" diameter="1"/>
 <pad name="9" x="2.54" y="-0.635" drill="0.508" diameter="1"/>
-<wire x1="-3.403" y1="-1.021" x2="-3.403" y2="-0.259" width="0.254" layer="21"/>
+<wire x1="-2.154" y1="-1.498" x2="-2.916" y2="-1.498" width="0.254" layer="21"/>
 <wire x1="3.175" y1="1.715" x2="-3.175" y2="1.715" width="0.127" layer="51"/>
 <wire x1="-3.175" y1="1.715" x2="-3.175" y2="-1.715" width="0.127" layer="51"/>
 <wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.127" layer="51"/>
@@ -21036,6 +21036,9 @@ Diode with low voltage drop</description>
 </class>
 <class number="1" name="vcc" width="0.000253125" drill="0">
 </class>
+<class number="2" name="usb" width="0.254" drill="0.3048">
+<clearance class="2" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
@@ -21315,7 +21318,7 @@ Recommended: 130pF</text>
 <busses>
 </busses>
 <nets>
-<net name="D-_CON" class="0">
+<net name="D-_CON" class="2">
 <segment>
 <wire x1="10.16" y1="165.1" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
 <label x="12.7" y="165.1" size="1.27" layer="95" xref="yes"/>
@@ -21329,7 +21332,7 @@ Recommended: 130pF</text>
 <label x="10.16" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D+_CON" class="0">
+<net name="D+_CON" class="2">
 <segment>
 <wire x1="10.16" y1="162.56" x2="12.7" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="D+"/>
@@ -21738,14 +21741,14 @@ Recommended: 130pF</text>
 <label x="17.78" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D-" class="0">
+<net name="D-" class="2">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="D-"/>
 </segment>
 </net>
-<net name="D+" class="0">
+<net name="D+" class="2">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
