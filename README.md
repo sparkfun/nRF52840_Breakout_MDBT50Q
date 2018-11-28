@@ -11,7 +11,9 @@ Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Firmware/nRF5_SDK/components/boards** - Firmware
+* **/Firmware** -- nRF5 SDK and Arduino firmware components
+  * **/Arduino** -- Board definitions and variants for installing in the [nRF52 Arduino Core](https://github.com/adafruit/Adafruit_nRF52_Arduino)
+  * **/nRF5_SDK** -- Board definitions for use in the nRF5 SDK.
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
