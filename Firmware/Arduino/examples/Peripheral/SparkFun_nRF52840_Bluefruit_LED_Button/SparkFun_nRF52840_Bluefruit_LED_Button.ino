@@ -33,6 +33,10 @@ void setup() {
   digitalWrite(LED_PIN, LED_OFF);
   pinMode(BUTTON_PIN, INPUT);
 
+  // Uncomment the code below to disable sharing
+  // the connection LED on pin 7.
+  //Bluefruit.autoConnLed(false);
+
   // Initialize Bluetooth:
   Bluefruit.begin();
   // Set max power. Accepted values are: -40, -30, -20, -16, -12, -8, -4, 0, 4
