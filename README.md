@@ -3,7 +3,7 @@ SparkFun Pro nRF52840 Mini - Bluetooth Development Board
 
 ![SparkFun Pro nRF52840 Mini - Bluetooth Development Board](https://cdn.sparkfun.com/assets/parts/1/3/3/5/1/15025-SparkFun_Pro_nRF52840_Mini_-_Bluetooth_Development_Board-01.jpg)
 
-[*SparkFun Pro nRF52840 Mini - Bluetooth Development Board (15025)*](https://www.sparkfun.com/products/15025)
+[*SparkFun Pro nRF52840 Mini - Bluetooth Development Board (DEV-15025)*](https://www.sparkfun.com/products/15025)
 
 <Basic description of the part.>
 
@@ -23,7 +23,7 @@ Documentation
 
 Product Versions
 ----------------
-* [15025](https://www.sparkfun.com/products/15025)- The SparkFun Pro nRF52840 Mini is a breakout and development board for Nordic Semiconductor’s nRF52840 – a powerful combination of ARM Cortex-M4 CPU and 2.4 GHz Bluetooth radio. With the nRF52840 at the heart of your project, you’ll be presented with a seemingly endless list of project-possibilities.
+* [DEV-15025](https://www.sparkfun.com/products/15025)- The SparkFun Pro nRF52840 Mini is a breakout and development board for Nordic Semiconductor’s nRF52840 – a powerful combination of ARM Cortex-M4 CPU and 2.4 GHz Bluetooth radio. With the nRF52840 at the heart of your project, you’ll be presented with a seemingly endless list of project-possibilities.
 
 License Information
 -------------------
