@@ -47,8 +47,5 @@ void initVariant()
 
   pinMode(PIN_LED2, OUTPUT);
   ledOff(PIN_LED2);
-
-  // USB init  TODO may have trouble with ISR when SD is enabled
-  usb_init();
 }
 
