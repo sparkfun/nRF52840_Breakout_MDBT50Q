@@ -35,7 +35,11 @@ sparkfunnrf52840mini.build.f_cpu=64000000
 sparkfunnrf52840mini.build.board=NRF52840_FEATHER
 sparkfunnrf52840mini.build.core=nRF5
 sparkfunnrf52840mini.build.variant=sparkfun_nrf52840_mini
-sparkfunnrf52840mini.build.extra_flags=-DNRF52840_XXAA
+sparkfunnrf52840mini.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
+sparkfunnrf52840mini.build.vid=0x1B4F
+sparkfunnrf52840mini.build.pid=0x5284
+sparkfunnrf52840mini.build.usb_manufacturer="SparkFun"
+sparkfunnrf52840mini.build.usb_product="nRF52840 Mini Breakout"
 
 # SofDevice Menu
 # Ram & ROM size varies depending on SoftDevice (check linker script)
