@@ -28,14 +28,12 @@ Product Versions
 License Information
 -------------------
 
-This product is as _**open source**_ as we can make it! Various bits of the code have different licenses applied, only the Soft Device is closed-source. 
+This product is _**open source**_! 
 
-Please review the LICENSE.md file for license information. 
+Please review the LICENSE.md file for license information.
 
-If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+If you have any questions or concerns on licensing, please visit the [SparkFun Forum](https://forum.sparkfun.com/index.php) and post a topic. For more general questions related to the SparkFun Pro nRF52840 Mini, please visit this section of the forum: [Pro nRF52840 Mini (DEV-15025): Questions and Issues](https://forum.sparkfun.com/viewtopic.php?f=99&t=50430)
 
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
