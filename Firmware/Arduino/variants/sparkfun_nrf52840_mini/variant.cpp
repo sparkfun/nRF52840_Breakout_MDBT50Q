@@ -23,8 +23,6 @@
 #include "wiring_digital.h"
 #include "nrf.h"
 
-#include "usb.h"
-
 const uint32_t g_ADigitalPinMap[] =
 {
   // P0
