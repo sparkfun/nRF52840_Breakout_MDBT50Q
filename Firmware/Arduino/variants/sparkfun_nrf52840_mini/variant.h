@@ -67,12 +67,12 @@ extern "C"
  */
 #define PIN_A0               (2)
 #define PIN_A1               (3)
-#define PIN_A2               (31)
-#define PIN_A3               (30)
-#define PIN_A4               (29)
-#define PIN_A5               (28)
-#define PIN_A6               (5)
-#define PIN_A7               (4)
+#define PIN_A2               (4)
+#define PIN_A3               (5)
+#define PIN_A4               (28)
+#define PIN_A5               (29)
+#define PIN_A6               (30)
+#define PIN_A7               (31)
 
 static const uint8_t A0  = PIN_A0 ;
 static const uint8_t A1  = PIN_A1 ;
