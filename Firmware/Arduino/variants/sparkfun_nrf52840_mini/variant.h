@@ -96,8 +96,14 @@ static const uint8_t AREF = PIN_AREF;
  * Serial interfaces
  */
 // Serial
+//Previous Hardware UART definition for nRF52 Arduino Core, below 0.16.0
+//Feel free to comment out these two lines below if there are conflicts with latest release
 #define PIN_SERIAL_RX       (15)
 #define PIN_SERIAL_TX       (17)
+
+//Hardware UART definition for nRF52 Arduino Core, 0.17.0 and above
+#define PIN_SERIAL1_RX      (15)
+#define PIN_SERIAL1_TX      (17)
 
 /*
  * SPI Interfaces
